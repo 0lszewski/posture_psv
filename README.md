@@ -1,8 +1,8 @@
 # posture_psv
 
-Passively discover Internet facing assets belonging to an organization. All that's needed to start are domain and organization names. Running notebook in a scheduled manner allows for easy tracking of company owned assets which can be used as a starting point of security posture management.
+<b>Passively</b> discover Internet facing assets belonging to your organization. All that's needed to start are domain and organization names. Running notebook in a scheduled manner allows for easy tracking of company owned assets which can be used as a starting point of <b>security posture management or attack surface discovery/reduction</b>.
 
-In the current version notebook uses TLS certificates search engine and Shodan integrations to assemble a list of assets containing:
+In the current version notebook uses TLS <b>certificates search engine and Shodan integrations</b> to assemble a list of assets containing:
 - Common names parsed from certificates
 - Matching identities
 - Issuer names
@@ -38,7 +38,7 @@ pip3 install folium
 
 ## Running the notebook
 
-1. Start by downloading the posture_psv.ipynb notebook from Git and opening it in your Jupyter installation.
+1. Start by downloading the ```posture_psv.ipynb``` notebook from Git and opening it in your Jupyter installation.
 2. Fill in the information required in the cells under <b>Complete your configuration here before proceeding:</b>
 
 ![setup](https://user-images.githubusercontent.com/113899562/191204890-21d032d6-b270-40e2-95c9-4ea3d2929912.png)
